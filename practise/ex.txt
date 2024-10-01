@@ -1,0 +1,13 @@
+f g h
+0 1 1
+1 1 2
+1 2 3
+2 3 5
+3 5 8
+
+doubles  are more precise than float
+doubles can represent very large or very low decimals
+
+setw is used to format reports
+
+root by bisection
