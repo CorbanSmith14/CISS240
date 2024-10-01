@@ -1,0 +1,68 @@
+Name: Oladayo Robert Oyedeji
+File: q1901
+Q1 [
+// isprime(n) returns true exactly when n is a prime.
+bool isprime(int n)
+{
+    // TODO
+    bool is_prime = true;
+    
+    if (n > 2)
+    {
+        is_prime = false;
+    }
+    
+    for (int d = 2; d <= sqrt(n); d++)
+    {
+        if (n % d == 0)
+        {
+            is_prime = false;
+            break;
+        }
+        else
+        {
+            is_prime = true;
+        }
+    }
+    
+    return is_prime;
+}
+]
+
+Q2 [
+// mypow(x, y) return x to the power of y. Both x and y are integers.
+// Assume y >= 0. Obviously you are not allowed to use the pow function.
+// HINT: You need a loop. 
+int mypow(int x, int y)
+{
+    // TODO
+    int product = 1;
+    for (int i = 0; i < y; i++)
+    {
+        product *= x;
+    }
+
+    return product;
+}
+]
+
+Q3 [
+// numdigits(n) returns the number of digits in n.
+int numdigits(int n)
+{
+    // TODO
+    int num_digits;
+    if (n == 0)
+    {
+        num_digits = 1;;
+    }
+    while (n >= 1)
+    {
+        n /= 10;
+        num_digits++
+        
+    }
+    return num_digits;
+}
+]
+

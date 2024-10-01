@@ -1,0 +1,39 @@
+Name: Oladayo Robert Oyedeji
+File: q1702
+Q1 [
+int index = -1;
+int rindex = -1;
+
+for (int i = 0; i < 1000; ++i)
+{
+    if (x[i] == target)
+    {
+       index = i;
+       break;
+    }
+}
+for ( int i = 999; i >= 0; --i)
+{
+    if (x[i] == target)
+    {
+       rindex = i;
+       break;
+    }
+}
+]
+
+Q2 [
+for (int j = 8; j >= 0; j--)
+{
+    for (int i = 0; i <= j; i++)
+    {
+        if (x[i] < x[i + 1])
+        {
+             int t = x[i];
+             x[i] = x[i + 1];
+             x[i + 1] = t;
+        }
+    }
+}
+]
+

@@ -1,0 +1,11 @@
+Name: Oladayo Robert Oyedeji
+File: q19q02
+Q1 [ERROR]
+Q2 [42]
+Q3 [42]
+Q4 [ERROR]
+Q5 [44]
+Q6 []
+Q7 [0]
+
+ 

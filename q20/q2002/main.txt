@@ -1,0 +1,53 @@
+Name: Oladayo Robert Oyedeji
+File: q2002
+Q1 [
+void clear_negative(double x[], int len)
+{
+    for (int i = 0; i < len; ++i)
+    {
+        if (x[i] < 0)
+        {
+            x[i] = 0;
+        }
+    }
+    std::cout << "{";
+    for (int i = 0; i < len; ++i)
+    {
+        
+        std::cout << x[i];
+        if (i != len - 1)
+            std::cout << ", ";
+        else
+            std::cout << "}" << '\n';
+        
+    }
+}
+]
+
+Q2 [
+void f(int x[1024][1024], int n)
+{
+    for (int r = 0; r < n; r++)
+    {
+        for (int c = 0; c < n; c++)
+        {
+            if (r == 0 || r == n - 1 || c == 0 || c == n - 1)
+            {
+                x[r][c] = 1;
+            }
+            else
+            {
+                x[r][c] = 0;
+            }
+            std::cout << x[r][c] << ' ';
+        }
+        std::cout << '\n';
+    }
+}
+]
+
+Q3 []
+
+Q4 [42 1]
+
+

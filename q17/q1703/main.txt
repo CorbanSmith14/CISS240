@@ -1,0 +1,46 @@
+Name: Oladayo Robert Oyedeji
+File: q1703
+Q1 [
+#include <iostream>
+
+int main()
+{
+    const int n = 1000
+    double x[n] = {0.0};
+    for (int i = 0; i < n; ++i)
+    {
+        std::cin >> x[i];
+    }
+    int sum = 0;
+    for (int i = 0; i < n; ++i)
+    {
+        sum += x[i];
+    }
+    int average = sum / n;
+
+    sum = 0;
+    int count = 0;
+    for (int i = 0; i < n; ++i)
+    {
+        if (x[i > 0])
+        {
+           sum += x[i];
+           count++;
+        }
+    }
+    average = sum / count;
+    
+    return 0;
+}
+]
+
+Q2 [
+7 3
+3 -3
+5 1
+6 2
+]
+
+Q3 [4]
+
+Q4 [7]
