@@ -1,0 +1,8 @@
+Name: Oyedeji Robert Oladayo
+File: q0402
+Q1 [F] (write T for true and F for false)
+Q2(a) [3]
+Q2(b) [4]
+Q3 [0]
+Q4 [F]
+

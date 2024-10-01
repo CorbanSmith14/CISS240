@@ -1,0 +1,9 @@
+Name: Oyedeji Oladayo
+File: q0304
+Q1(a) [2]
+Q1(b) [28]
+Q1(c) []
+Q2 [a, b, c, f, g, h]
+Q3 [T]
+Q4 [10]
+

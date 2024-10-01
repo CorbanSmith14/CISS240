@@ -1,0 +1,29 @@
+Name: Oyedeji Oladayo
+File: q0306
+Q1
+[
+int k = i;
+i = j;
+j = k;
+
+]
+
+Q2
+[
+t = x0;
+x0 = x1;
+x1 = x2;
+x2 = t;
+
+]
+
+Q3
+[
+t = x0;
+x0 = x2;
+x2 = x1;
+x1 = t;
+
+
+
+]

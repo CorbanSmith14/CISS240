@@ -1,0 +1,13 @@
+// Name: Oyedeji Robert Oladayo
+// File: main.txt
+Email this file as attachment to yliow@ccis.edu using your college email account and with subject line "ciss240 q0103".
+
+Q1(a) [S] 
+Q1(b) [C] 
+Q1(c) [N] 
+Q1(d) [S] 
+Q1(e) [N] 
+Q2    [F] (enter T for true or F for false)
+Q3    [9] 
+Q4    [F] (enter T for true or F for false)
+Q5    ["1\n2\n3"] (enter the string -- don't forget the double quotes!)

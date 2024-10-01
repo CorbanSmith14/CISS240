@@ -1,0 +1,16 @@
+Email this file as attachment to yliow@ccis.edu using your college email account and with subject line "ciss240 q0201".
+
+Q1 [2] 
+Q2 [3] 
+Q3 [13524] 
+Q4 [0] 
+Q5 [ERROR] 
+Q6 [0] 
+Q7 [0] 
+Q8 [42] 
+Q9 [0] 
+Q10 [1] 
+Q11 [1] 
+Q12 [0] 
+Q13 [0] 
+Q14 [ERROR] 

@@ -1,0 +1,13 @@
+Name: Oyedeji Oladayo Robert
+File: q0601
+Q1(a) [true] (write true or false)
+Q1(b) [false]
+Q1(c) [false]
+Q1(d) [false]
+Q2(a) [true]
+Q2(b) [true]
+Q2(c) [true]
+Q2(d) [false]
+Q3(a) [false]
+Q3(b) [true] 
+Q4 [true] write true or false

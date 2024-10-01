@@ -1,0 +1,40 @@
+Name: Oyedeji Oladayo Robert
+File: q0702
+Q1 [
+3 1 5 0 7
+1 3 0 5 7
+] (replace ?s with numbers)
+
+Q2 [
+double x0 = 0.0, x1 = 0.0, x2 = 0.0;
+std::cin >> x0 >> x1 >> x2;
+
+// Bubblesort on x0, x1, x2
+double t = 0.0; // variable for temporary storage during swaps
+
+// if (x0 > x1)
+   {
+        t = x0;
+        x0 = x1;
+        x1 = t;
+   }
+   
+   if (x1 > x2)
+   {
+        t = x1;
+        x1 = x2;
+        x2 = t;
+   }
+   
+   if (x0 > x1)
+   {
+        t = x0;
+        x0 = x1;
+        x1 = t;
+   }
+   
+
+std::cout << x0 << ' ' << x1 << ' ' << x2 << '\n';
+]
+
+

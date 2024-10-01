@@ -1,0 +1,23 @@
+// Name: Oyedeji Robert Oladayo
+// File: q0301
+Q1 [int i = 0;]
+Q2
+[
+int j;
+j = 0;
+]
+Q3 [int x = 0, y = 1;]
+Q4(a) [7]
+Q4(b) [2]
+Q5(a) [11]
+Q5(b) [3]
+Q5(c) [12]
+Q6 [std::cin >> n;]
+Q7
+[
+int i;
+std::cin >> i;
+int d0 = i % 10;
+std::cout << d0 << std::endl;
+]
+(add more lines to Q7 if necessary)

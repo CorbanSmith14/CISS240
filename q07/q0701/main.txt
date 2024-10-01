@@ -1,0 +1,6 @@
+Name: Oyedeji Oladayo Robert
+File: q0701
+Q1 [bool n_is_even = n % 2 == 0;] complete the incomplete statement of the code fragment
+Q2 [false]
+Q3 [true]
+Q4 [bool too_much_telly = hours > 5;] complete the incomplete statement of the code fragment

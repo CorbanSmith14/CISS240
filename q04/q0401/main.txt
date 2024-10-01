@@ -1,0 +1,6 @@
+Name: Oyedeji Oladayo
+File: q0401
+Q1 [double] (write int or char or C-string or float or double)
+Q2 [double(x / y)]
+Q3 [3]
+Q4 [0.00001]

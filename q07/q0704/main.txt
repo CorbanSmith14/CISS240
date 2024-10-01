@@ -1,0 +1,30 @@
+Name: Oyedeji Oladayo Robert
+File: q0704
+Q1 [
+double x0, x1, x2;
+std::cin >> x0 >> x1 >> x2;
+
+// double t = 0.0;
+if (x0 < x1)
+{
+   t = x0;
+   x0 = x1;
+   x1 = t;
+}
+
+if (x1 < x2)
+{
+   t = x1;
+   x1 = x2;
+   x1 = t;
+}
+
+if (x0 < x1)
+{
+   t = x0;
+   x0 = x1;
+   x1 = t;
+}
+
+std::cout << x0 << ' ' x1 << ' ' << x2 << '\n';
+]

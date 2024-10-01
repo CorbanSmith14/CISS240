@@ -1,0 +1,24 @@
+Email this file as attachment to yliow@ccis.edu using your college email account and with subject line "ciss240 q0202".
+
+Q1.[
+1 + 3 - 4 * 5 + 2 / 3
+= 1 + 3 - 20 + 2 / 3              by 4 * 5
+= 1 + 3 - 20 + 0                  by 2 / 3
+= 4 - 20 + 0                      by 1 + 3
+= -16 + 0                         by 4 - 20
+= -16                             by -16
+]
+
+Q2.[
+1 + 3 - 4 % 5 / 2 + 2 / (3 + 5 - 4) / 2
+=  1 + 3 - 4 % 5 / 2 + 2 / (8 - 4) / 2  by (3 + 5)
+=  1 + 3 - 4 % 5 / 2 + 2 / 4 / 2  by (8 - 4)
+=  1 + 3 - 4 / 2 + 2 / 4 / 2      by 4 % 5
+=  1 + 3 - 2 + 2 / 4 / 2          by 4 / 2
+=  1 + 3 - 2 + 0 / 2              by 2 / 4
+=  1 + 3 - 2 + 0                  by 0 / 2
+=  4 - 2 + 0                      by 1 + 3
+=  2 + 0                          by 4 - 2
+=  2                              by 2 + 0
+=                                 by
+]
