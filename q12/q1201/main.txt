@@ -1,0 +1,18 @@
+Name: Oladayo Robert Oyedeji
+File: q1201
+Email this file as attachment to yliow@ccis.edu using your college email account and with subject line "ciss240 q1201".
+
+(The first line of output is given.)
+Q1 [
+2 3
+3 6
+4 10
+5 10
+]
+
+Q2 [
+5 8
+4 12
+3 15
+2 15
+]

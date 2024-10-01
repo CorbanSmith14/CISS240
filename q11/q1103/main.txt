@@ -1,0 +1,59 @@
+Name: Oladayo Robert Oyedeji
+File: q1103
+Q1 [
+#include <iostream>
+
+int main()
+{
+    int n;
+    std::cin >> n;
+    int num_solutions = 0;
+
+    
+    for (int x = -10; x <= 10; x++)
+    {
+        for (int y = -10; y <= 10; y++)
+        {
+            for (int z = -10; z <= 10; z++)
+            {
+                if (x * x * x + 3 * y * y * y == n * z * z * z)
+                {
+                    std::cout << x << ' ' << y << ' ' << z << '\n';
+                    num_solutions++;
+                }
+                
+            }
+        }
+    }
+
+    std::cout << num_solutions << '\n';
+    return 0;
+}
+]
+
+Q2 [
+#include <iostream>
+
+int main()
+{
+    int n;
+    std::cin >> n;
+    int num_spaces = n - 1;
+    
+    for (int i = 0; i < n; ++i)
+    {
+        // TODO: print spaces
+        for (int j = 0; j < num_spaces; ++j)
+        {
+            std::cout << ' ';
+        }
+        
+        std::cout << "*\n";
+        num_spaces--;
+    }
+
+    return 0;
+}
+]
+There are many ways to solve this problem.
+You can remove the above skeleton code and write your own code.

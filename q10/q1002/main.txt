@@ -1,0 +1,6 @@
+Name: Oladayo Robert Oyedeji
+File: q1002
+Q1 [0 2 4 6 8 10 12 14 16 18]
+Q2 [1 7 13 19]
+Q3 [1 2 4]
+Q4 [6 9]

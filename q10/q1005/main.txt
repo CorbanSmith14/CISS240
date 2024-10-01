@@ -1,0 +1,33 @@
+Name: Oladayo Robert Oyedeji
+File: q1005
+Q1 [
+      sum = 0; // declare and initialize
+for (int i =  1; i <= 1000; ++i)
+{
+    sum += i;
+}
+std::cout << sum << std::endl;
+]
+
+Q2 [
+      sum = 0; // declare and initialize
+for (int i = 10; i <= 1000; ++i)
+{
+    sum += i;
+}
+std::cout << sum << std::endl;
+]
+
+Q3 [
+      sum = 0; // declare and initialize
+for (int i = 10; i <= 1000; i += 2)
+{
+    if (i < 100 || i > 200)
+    {
+        sum += i;
+    }
+
+
+}
+std::cout << sum << std::endl;
+]

@@ -1,0 +1,29 @@
+Name: Oladayo Robert Oyedeji
+File: q1007
+Q1 [
+#include <iostream>
+#include <iomanip>
+#include <cmath>
+
+int main()
+{
+    double max_x;                     // x where max of function occurs
+    double max_y;                     // max value of function
+    double a = 1, b = 1.5;   // endpoints
+    int n = 1000;                    // number of point 
+    double dx =  (b - a) / n; // distance between consecutive points 
+    for ( int i = a; i <= b; x += dx)
+    {
+        int y = 2 * pow (x, 2.3) * cos(pow(x, 4.5) + 1) + 20;
+        if (y >= max_y)
+        {
+           max_y = y;
+           max_x = i;
+        }
+    }
+    std::cout << std::fixed << std::setprecision(5) << max_x
+              << std::fixed << std::setprecision(5) << max_y
+              << std::endl;
+    return 0;
+}
+]

@@ -1,0 +1,22 @@
+Name: Oladayo Robert Oyedeji
+File: q1003
+Q1 [
+for (int i =  100; i <= 105; i++)
+{
+    std::cout << i << ' ';
+}
+]
+
+Q2 [
+for (double x = 0; x <= 0.8; x += 0.2)
+{
+    std::cout << x << ' ';
+}
+]
+
+Q3 [
+for (int i = 50; i >= 0; i -= 10)
+{
+    std::cout << i << ' ';
+}
+]

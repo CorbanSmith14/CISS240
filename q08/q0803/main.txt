@@ -1,0 +1,20 @@
+Name: Oyedeji Oladayo Robert
+File: q0803
+Q1 [4]
+Q2 [x = (a < b + c ? i + j : i - j)]
+
+
+
+Q3 [
+int die0 = rand() % 6 + 1;
+int die1 = rand() % 6 + 1;
+int gain = 0;
+gain = (die0 > 2 ? gain + 1 : gain - 1);
+gain = (die0 == die1 ? gain + 1 : gain - 1);
+gain = (die0 == 6 && die1 == 6 ? gain + 2);
+
+Q4 [
+(die0 == 0 && die1 == 0)
+]
+]
+

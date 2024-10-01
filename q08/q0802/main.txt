@@ -1,0 +1,47 @@
+Name: Oyedeji Oladayo Robert
+File: q0802
+Q1 [
+double d0, d1, d2, d3;
+std::cin >> d0 >> d1 >> d2 >> d3;
+
+// Perform maxmimum computation on d0,d1,d2,d3 and store in max
+double max = d0;
+
+//
+  if (max < d1)
+  {
+     max = d1;
+  }if (max < d2)
+  {
+     max = d2;
+  }
+  if (max < d3)
+  {
+     max = d3;
+  }
+
+std::cout << max << std::endl;
+]
+
+Q2 [
+int x0, x1, x2, x3, x4;
+std::cin >> x0 >> x1 >> x2 >> x3 >> x4;
+
+// Perform minimum computation on x0,x1,x2,x3,x4 and store in min
+int min = d0;
+
+//
+  if (min > x1)
+  {
+     min = x1;
+  }if (min > x2)
+  {
+     min = x2;
+  }
+  if (min > x3)
+  {
+     mmin = x3;
+  }
+
+std::cout << min << std::endl;
+]

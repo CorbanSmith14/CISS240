@@ -1,0 +1,66 @@
+Name: Oladayo Robert Oyedeji
+File: q1402
+Q1 [
+#include <iostream>
+
+int main()
+{
+    int n, i;
+    std::cin >> n >> i;
+    int digit;
+
+    digit = n / int (pow (10, i)) % 10;
+
+    std::cout << digit << '\n';
+    return 0;
+}
+]
+(You need not use the above skeleton code.)
+
+Q2 [
+#include <iostream>
+#include <cmath>
+
+int main()
+{
+    int n;
+    std::cin >> n;
+
+    int num_digits = 0; // number of digits in n
+    int x = n;
+    while (x != 0)
+    {
+        x /= 10;
+        num_digits++;
+    }
+    // compute num_digits
+    
+    while (num_digits > 1)
+    {
+        int sum_digits = 0;
+        for (int i = 0; i <= num_digits; i++)
+        {
+            int i0 = n / int(pow(10, i)) % 10;
+            sum_digits += i0;
+        }
+        // compute sum_digits
+        std::cout << sum_digits << std::endl;
+        // print sum_sigits
+        
+        
+        // get ready for the next iteration
+        n = sum_digits;
+        x = n;
+        num_digits = 0;
+        // compute num_digits
+        while (x != 0)
+        {
+            x /= 10;
+            num_digits++;
+        }
+    }
+    
+    return 0;
+}
+]
+(You need not use the above skeleton code.)

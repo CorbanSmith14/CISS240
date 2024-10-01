@@ -1,0 +1,63 @@
+Name: Oladayo Robert Oyedeji
+File: q1202
+Email this file as attachment to yliow@ccis.edu using your college email account and with subject line "ciss240 q1202".
+
+(The first line of output is given.)
+Q1 [
+#include <iostream>
+#include <cmath>
+
+int main()
+{
+    while (1)
+    {
+        int n;
+        std::cin >> n;
+        if (n == -1) // sentinel value check
+        {
+            break;
+        }
+        
+        if (n < 0)
+        {
+            std::cout << "error" << std::endl;
+        }
+        else if (n == 0)
+        {
+            std::cout << "zero" << std::endl;
+        }
+        else if (n == 1)
+        {
+            std::cout << "unit" << std::endl;
+        }
+        
+        else
+        {
+            bool is_prime = true;
+            for (int i = 2; i <= sqrt(n); i++)
+            {
+                if (n % i == 0)
+                {
+                    is_prime = false;
+                    
+                    break;
+                }
+                else
+                {
+                    is_prime = true;
+                }
+            }
+            if (is_prime)
+            {
+                std::cout << "prime" << std::endl;
+            }
+            else
+            {
+                std::cout << "not a prime" << std::endl;;
+            }
+        }
+    }
+    
+    return 0;
+}
+]

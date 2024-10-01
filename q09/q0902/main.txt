@@ -1,0 +1,27 @@
+Name: Oyedeji Oladayo Robert
+File: q0902
+Q1 [
+int x;
+char y;
+std::cin >> x;
+
+switch (x)
+{
+    case 1:
+       y = 'a';
+       break;
+    case 2:
+       y = 'b';
+       break;
+    case 3:
+    case 4:
+       y = 'd';
+       break;
+    default:
+       y = 'e';
+
+}
+
+]
+
+Q2 [x = ( x > 1.0 ? 1.0 : x);]
